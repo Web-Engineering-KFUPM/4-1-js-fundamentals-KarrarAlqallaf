@@ -138,12 +138,18 @@ while (t>0){
 // Task 6.1 — pure function + return
 // Make a function add(a,b){ return a+b; } display the result of add(2,5).
 // write code here
+function add(a,b){
+    return a+b
+}
+console.log(add(2,5))
+
 
 
 // Task 6.2 — Arrow functions
 // Make an arrow function; const cube = n => n*n*n; cube(3)
 // write code here
-
+const cube = n => n*n*n
+console.log(cube(3))
 
 // =================================
 // TODO-7: SCOPE & GLOBAL OBJECT (ESSENTIALS)
