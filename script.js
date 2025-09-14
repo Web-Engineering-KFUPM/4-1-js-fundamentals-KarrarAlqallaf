@@ -7,6 +7,10 @@ console.log("%cJS Lab Connected — Start completing the TODOs!", "font-weight:b
 // Task 2.1 — declare & reassign
 // Create let course = "CIS101"; display it usinng console.log(course), reassign to "CIS102"; display it again.
 // write code here
+let course = "CIS101"
+console.log(course)
+course = "CIS102"
+console.log(course)
 
 
 // Task 2.2 — const safety
@@ -14,6 +18,9 @@ console.log("%cJS Lab Connected — Start completing the TODOs!", "font-weight:b
 // NOTE: For now, keep the reassignment line commented so the file runs without errors.
 // const SCHOOL = "MyCollege";
 // SCHOOL = "OtherCollege"; // <-- Uncomment to see the error, then re-comment after testing
+const SCHOOL = "MyCollage"
+// SCHOOL = "Majediah"
+//const stands for constant, in java scrip constants cannot be reassigned
 
 
 // ==========================
