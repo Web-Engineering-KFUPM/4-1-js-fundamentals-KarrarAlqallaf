@@ -158,6 +158,11 @@ console.log(cube(3))
 // Task 7.1 — var vs let scope
 // Declare var a = 1; let b = 2 inside a block { },  then try displaying both outside the block; observe differences.
 // write code here
+{var a = 1;}
+{let b =2;}
+console.log(a)
+//console.log(b) b cannot be accessed because let cannot be accessed outside a block (block scoped)
+
 
 
 // ==================
